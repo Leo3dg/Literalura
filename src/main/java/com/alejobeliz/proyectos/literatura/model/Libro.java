@@ -1,11 +1,9 @@
 package com.alejobeliz.proyectos.literatura.model;
 
-import com.fasterxml.jackson.databind.node.LongNode;
 import jakarta.persistence.*;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
+
 
 @Entity
 @Table(name = "libros")
@@ -40,7 +38,10 @@ public class Libro {
         this.numeroDeDescargas = libro.numeroDeDescargas();
     }
 
-    public Libro(){};
+    public Libro() {
+    }
+
+    ;
 
     public String getTitulo() {
         return titulo;
@@ -88,16 +89,11 @@ public class Libro {
         System.out.println("Autor: " + autor.getNombre());
         System.out.println("Idioma: " + idioma.getIdiomaCompleto());
         System.out.println("Numero de Descargas: " + numeroDeDescargas);
-        System.out.println("\n");
+        System.out.println("");
     }
 
     @Override
     public String toString() {
-        return "Libro{" +
-                "titulo='" + titulo + '\'' +
-                ", autor=" + autor +
-                ", idioma=" + idioma.getIdiomaCompleto() +
-                ", numeroDeDescargas=" + numeroDeDescargas +
-                '}';
+        return titulo;
     }
 }

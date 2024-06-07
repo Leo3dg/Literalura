@@ -1,7 +1,6 @@
 package com.alejobeliz.proyectos.literatura.repository;
 
 import com.alejobeliz.proyectos.literatura.model.Autor;
-import com.alejobeliz.proyectos.literatura.model.Libro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

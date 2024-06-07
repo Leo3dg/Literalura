@@ -1,10 +1,7 @@
 package com.alejobeliz.proyectos.literatura;
 
 import com.alejobeliz.proyectos.literatura.principal.Principal;
-import com.alejobeliz.proyectos.literatura.repository.AutorRepository;
-import com.alejobeliz.proyectos.literatura.repository.LibroRepository;
-import com.alejobeliz.proyectos.literatura.service.AutorService;
-import com.alejobeliz.proyectos.literatura.service.LibroService;
+import com.alejobeliz.proyectos.literatura.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,13 +15,11 @@ public class LiteraturaApplication implements CommandLineRunner {
 	}
 
 	@Autowired
-	private LibroService libroService;
-	@Autowired
-	private AutorService autorService;
+	private MenuService menuService;
 
 	@Override
 	public void run(String... args) throws Exception {
-		Principal principal = new Principal(libroService,autorService);
+		Principal principal = new Principal(menuService);
 		principal.EjecutarAplicacion();
 	}
 }

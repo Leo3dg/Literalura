@@ -71,6 +71,7 @@ public class Autor {
         System.out.println("Nomber:" + nombre);
         System.out.println("Fecha de nacimiento: "+fechaNacimiento);
         System.out.println("Fecha de fallecimiento: "+fechaFallecimiento);
-        System.out.println("\n");
+        System.out.println("Libros: "+libros);
+        System.out.println("");
     }
 }
