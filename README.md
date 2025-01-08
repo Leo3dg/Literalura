@@ -1,8 +1,5 @@
 # Proyecto Literatura - literAlura
 
-![Captura de pantalla 2024-06-07 191102](https://github.com/albelizGH/literalura/assets/129092769/0b3f3a6a-ac9a-4611-abc9-07cf32917553)
-
-
 Bienvenido al proyecto literAlura, una aplicación Java basada en Spring Boot que te permite gestionar libros y autores de manera eficiente y fácil. 🎉
 
 ## Descripción del Proyecto 📚
@@ -48,14 +45,17 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 - Una base de datos SQL (PostgreSQL, MySQL, MariaDB, SQL Server, H2)
 
 ### Clonar el Repositorio
+
 ```
 git clone https://github.com/tu-usuario/literAlura.git
 ```
 
 ### Dependencias
+
 Asegúrate de agregar las dependencias necesarias en tu archivo `pom.xml` para la base de datos que deseas usar.
 
 ### Configurar tu base de datos en el archivo application.properties
+
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/nombre_de_tu_base_de_datos
 spring.datasource.username=tu_usuario
@@ -64,7 +64,9 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 
 ### Ejecuta LiteraturaApplication en tu IDE
+
 Al ejecutar la aplicación, se mostrará un menú en la consola con las siguientes opciones:
+
 ```
 Bienvenidos a literAlura
 Elija una opción:
@@ -75,9 +77,5 @@ Elija una opción:
 5 - Listar libros por idioma
 0 - Salir
 ```
+
 Selecciona la opción deseada ingresando el número correspondiente y sigue las instrucciones en pantalla.
-
-Hecho con ❤️ por Alejo
-
-
-
