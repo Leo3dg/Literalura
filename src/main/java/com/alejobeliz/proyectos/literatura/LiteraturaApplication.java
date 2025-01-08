@@ -1,7 +1,7 @@
-package com.alejobeliz.proyectos.literatura;
+package com.leo3dg.proyectos.literatura;
 
-import com.alejobeliz.proyectos.literatura.principal.Principal;
-import com.alejobeliz.proyectos.literatura.service.MenuService;
+import com.leo3dg.proyectos.literatura.principal.Principal;
+import com.leo3dg.proyectos.literatura.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

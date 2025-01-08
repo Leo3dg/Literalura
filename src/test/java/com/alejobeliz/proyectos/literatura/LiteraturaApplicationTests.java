@@ -1,4 +1,4 @@
-package com.alejobeliz.proyectos.literatura;
+package com.leo3dg.proyectos.literatura;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

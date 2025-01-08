@@ -1,6 +1,6 @@
-package com.alejobeliz.proyectos.literatura.util;
+package com.leo3dg.proyectos.literatura.util;
 
-import com.alejobeliz.proyectos.literatura.model.LibroRecord;
+import com.leo3dg.proyectos.literatura.model.LibroRecord;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

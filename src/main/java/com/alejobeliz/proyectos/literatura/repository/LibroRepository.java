@@ -1,7 +1,7 @@
-package com.alejobeliz.proyectos.literatura.repository;
+package com.leo3dg.proyectos.literatura.repository;
 
-import com.alejobeliz.proyectos.literatura.model.Idioma;
-import com.alejobeliz.proyectos.literatura.model.Libro;
+import com.leo3dg.proyectos.literatura.model.Idioma;
+import com.leo3dg.proyectos.literatura.model.Libro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

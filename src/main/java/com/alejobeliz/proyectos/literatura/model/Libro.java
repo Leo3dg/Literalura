@@ -1,4 +1,4 @@
-package com.alejobeliz.proyectos.literatura.model;
+package com.leo3dg.proyectos.literatura.model;
 
 import jakarta.persistence.*;
 

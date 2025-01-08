@@ -1,7 +1,7 @@
-package com.alejobeliz.proyectos.literatura.service;
+package com.leo3dg.proyectos.literatura.service;
 
-import com.alejobeliz.proyectos.literatura.model.Autor;
-import com.alejobeliz.proyectos.literatura.repository.AutorRepository;
+import com.leo3dg.proyectos.literatura.model.Autor;
+import com.leo3dg.proyectos.literatura.repository.AutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
